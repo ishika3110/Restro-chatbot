@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<title>Curry Junction Restaurant</title>
+</head>
+<body>
+<!-- Hero Section begin -->
+<div class="hero" id="page_up">
+	<div class="hero_content">
+		<h1>Curry Junction Restaurant</h1>
+		<h2>Your Stop for Authentic Taste</h2>
+		<a href="menu.html">Menu</a>
+	</div>
+</div>
+<!-- End Hero Section -->
+<!-- Navbar begin -->
+<div id="navbar">
+	<nav id="header">
+	<div id="brand"> <h1>Curry Junction Restaurant</h1> </div>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="#chef">Chef</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+	<div id="tel"><a href="tel:+916395500000">+91 6395500000</a></div>
+</nav>
+<!-- Mobile Navbar begin -->
+<div id="mobile_menu">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#menu">Menu</a></li>
+		<li><a href="#chef">Chef</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#contact">Contact</a></li>
+	</ul>
+</div>
+<!-- End Mobile Navbar -->
+</div>
+<!--End Navbar-->
+
+<!-- Chef section begin -->
+<div id="chef">
+	<h1 id="section">Our Chefs</h1>
+	<div class="chef_row">
+		<div class="chef_col">
+			<div class="img"><img src="images/1.png"></div>
+			<div><h4>Ripudaman Handa</h4></div>
+		</div>
+		<div class="chef_col">
+			<div class="img"><img src="images/2.png"></div>
+			<div><h4>Abinas Nayak</h4></div>
+		</div>
+		<div class="chef_col">
+			<div class="img"><img src="images/chef.jpg"></div>
+			<div><h4>Nikita Gandhi</h4></div>
+		</div>
+		<div class="chef_col">
+			<div class="img"><img src="images/4.png"></div>
+			<div><h4>Sarthak Bhardwaj</h4></div>
+		</div>
+	</div>
+</div>
+<!-- End chef section -->
+
+<!-- About section begin -->
+<div id="about">
+	<h1 id="section">About Us</h1>
+	<div class="about_row">
+		<div class="about_col">
+			<h1>About Us</h1>
+			<p>
+				Welcome to The Curry Junction – Your Stop for Authentic Taste, where every meal is a celebration of rich Indian flavors and warm hospitality.
+				Founded with a passion for authentic cuisine and a love for bringing people together, The Curry Junction offers a menu inspired by traditional recipes from across India — from spicy street food favorites to hearty home-style meals. Whether you're here for a quick bite or a relaxing dine-in experience, we promise food that’s always fresh, flavorful, and made with care.
+				We believe in:
+				✅ Using only quality ingredients
+				✅ Serving with heart and hospitality
+				✅ Blending tradition with modern convenience
+				Our cozy ambiance, friendly team, and now our smart chatbot assistant make it easier than ever to order, reserve tables, or simply ask questions. Because at Pandeyji, you're not just a customer — you're family.
+				Stop by and spice up your day — we’re glad to have you here!
+			</p>
+		</div>
+		<div class="about_col">
+			<div id="img"><img src="images/about.png"></div>
+		</div>
+	</div>
+</div>
+<!-- End about section -->
+
+<!-- contact section begin -->
+<div id="contact">
+	<h1 id="section">Contact Us</h1>
+	<div class="contact_row">
+		<div class="contact_col">
+			<div>
+			<p>
+				<span><i class="fa fa-map-marker"></i></span>
+				Connaught Place, Rajiv Chowk, New Delhi
+			</p>
+			<p>
+				<span><i class="fa fa-envelope"></i></span>
+				<a href="">curryjunctionrestro@gmail.com</a>
+			</p>
+			<p>
+				<span><i class="fa fa-phone-square"></i></span>
+				<a href="">+91 6395500000</a>
+			</p>
+			<h3>Follow us</h3>
+			<p class="social">
+				<a href=""><i class="fa fa-facebook-official fa-2x"></i></a>
+				<a href=""><i class="fa fa-instagram fa-2x"></i></a>
+				<a href=""><i class="fa fa-twitter-square fa-2x"></i></a>
+				<a href=""><i class="fa fa-youtube-square fa-2x"></i></a>
+			</p>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<!-- End contact section -->
+  <!-- ── Chatbot widget ── -->
+  <!-- Chatbot -->
+<div id="chat-widget">
+  <div id="chat-header">🤖 Restro Chatbot</div>
+  <div id="chatbox"></div>
+  <div id="input-area">
+    <input id="user-input" type="text" placeholder="Type a message…" />
+    <button id="send-btn">Send</button>
+  </div>
+</div>
+
+
+  <script>
+    // ── CONFIG ──
+    const projectId   = "restro-chatbot-otco";
+    const languageCode= "en";
+    const accessToken = "ya29.c.c0ASRK0GbN6i2N_G-qxD0_xY1PC7gkkEtTht_rhqXOTlgOYvRHIF5ocHQy34WBe08iwXU_KWhfdoGMcjtr-ANviXAxPv4mVF7Byb7hx2e8ihDrM7b5nGjO-ks3bLNRsS2fVy-NRjIVJTWbYeAL7XNojBO9GgEtlSqAuhRFDzR7X4mqHYBwbaF0y-wB99xFFYanYj6KDrktJ7rNVwBwwyWtPGYnio3psuPpWC0IBLwL4UKQFDYZ1g1Ne5-J1vGjzjX9iHvP-INAS6Oq7nM7UVX6HFa0Z1mqwXIr4fJhi9L5pFDMm4cPRv3feQ0MCuaYEk40s00hoeBwTOCbV5k4VHYacs-OIP4e4sTubz_PA4UzGPWpcxjvi6YL4OltU7gaQYluWyxOPwG399A9ls1QWXFxzs2zI-VpV-3wBIlqJ3-X6Vi8xey7pOr5dwOm9rZ_bavqUB2Be1irJ5_tx1vtVYh-nhe3q7Y1r89oR4vjJFQzBFRlpJ5FMZSF-9UqWSI_aarnQ0Bd_Sw7eh6gzSw2U8Bos1k6RlJmnMOXjsko3v6lQR46rxOWr8gO7OgB95ah1Y-xJkrsr99qgq46wOmq0zzlp98YtFIjsjsYgnzrVh5b5kM_ro6i6Yi-MztSMMRw1SSW5l-XOkVy9mdvMBsYWtkZW6ki5eFalSk0unip0smvVzmkY5Zl13BdB_Y0916RQ0bXis-qZVsospRu4gZ--Wu_nV4BJO7MeqVBSqY7f4u4Johjm2xRaUxzZ56tqlczVM9su-11qdYQj1crk5RFhayq6mqYJtVdr8rwklZF93nirWaIOwBogy5XZsuoy7usvRWjcYabBg0O9XYJUxqQ86Q6rze5IXlZ3mRicdfz72BvR-c5gRR0kv_gd-7fJIb_2mt5Qrpw0iapWditonB4n68IU7eyxRsvolOijl5qXa2S5ZxY4kXjR66pz5JgwsQW--dukVhIfd8RVp5r33UpkUJjQk-Q6becr5mnd1S1g3mR2IRmvd3msUjj25s";
+	//gcloud auth activate-service-account --key-file="restro-chatbot-otco-57e5bbbb2928.json", gcloud auth print-access-token
+
+
+    const chatbox = document.getElementById("chatbox");
+    const sendBtn = document.getElementById("send-btn");
+    const input   = document.getElementById("user-input");
+
+    sendBtn.addEventListener("click", async () => {
+      const text = input.value.trim();
+      if (!text) return;
+      addMessage(text, "user-msg");
+      input.value = "";
+      sendBtn.disabled = true;
+
+      const sessionId = localStorage.getItem("sessionId") || "session-" + Date.now();
+      localStorage.setItem("sessionId", sessionId);
+
+      const url = `https://dialogflow.googleapis.com/v2/projects/${projectId}/agent/sessions/${sessionId}:detectIntent`;
+
+      const payload = {
+        queryInput: {
+          text: { text, languageCode }
+        }
+      };
+
+      try {
+        const res = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Authorization": `Bearer ${accessToken}`,
+            "Content-Type": "application/json; charset=utf-8"
+          },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) throw await res.text();
+        const json = await res.json();
+        console.log("Dialogflow response:", json);
+        addMessage(json.queryResult?.fulfillmentText || "🤖 I didn’t get that!", "bot-msg");
+
+      } catch (e) {
+        addMessage("⚠️ Oops, something went wrong.", "bot-msg");
+        console.error("Dialogflow error:", e);
+      } finally {
+        sendBtn.disabled = false;
+      }
+    });
+
+    function addMessage(msg, cls) {
+      const d = document.createElement("div");
+      d.className = cls;
+      d.innerText = msg;
+      chatbox.appendChild(d);
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+  </script>
+<!-- footer -->
+<div class="footer">
+	<div>
+		<h5>Copyright &copy;2022 | <a href="">CurryJunctionRestro</a></h5>
+	</div>
+	<div id="top">
+		<a href="#page_up">
+			<i class="fa fa-chevron-circle-up fa-2x"></i>
+		</a>
+	</div>
+</div>
+</body>
+</html>
