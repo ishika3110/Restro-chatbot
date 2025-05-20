@@ -10,15 +10,15 @@ Built an intelligent, end-to-end restaurant chatbot system that enables users to
 🛠️ Error Handling & Validation: Ensured robust handling of user input errors and backend database constraints (e.g., item availability, invalid quantities).  
 🌐 Deployment Ready: Structured the project for future deployment to GCP / AWS, with OAuth token support and easy webhook configuration.  
 
-🚀 Key Technologies:
-Dialogflow CX / ES (Natural Language Understanding)
-FastAPI (Python Web Framework)
-MySQL (Database & Stored Procedures)
-JavaScript / HTML / CSS (Frontend Chat Widget)
-OAuth 2.0 (Secure Token Integration)
-Git & GitHub for Version Control
+🚀 Key Technologies:  
+Dialogflow CX / ES (Natural Language Understanding)  
+FastAPI (Python Web Framework)  
+MySQL (Database & Stored Procedures)  
+JavaScript / HTML / CSS (Frontend Chat Widget)  
+OAuth 2.0 (Secure Token Integration)  
+Git & GitHub for Version Control  
 
-🧩 Live Features / Demo Suggestions (Optional):
-Try placing an order: “I want 2 plates of Chole Chawal”
-Reserve a table: “Book a table for 4 at 7 PM”
-Track order: “Where is my order?”
+🧩 Live Features / Demo Suggestions (Optional):  
+Try placing an order: “I want 2 plates of Chole Chawal”  
+Reserve a table: “Book a table for 4 at 7 PM”  
+Track order: “Where is my order?”  
