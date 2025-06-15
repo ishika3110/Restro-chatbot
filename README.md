@@ -24,3 +24,5 @@ Git & GitHub for Version Control
 Try placing an order: “I want 2 plates of Chole Chawal”  
 Reserve a table: “Book a table for 4 at 7 PM”  
 Track order: “Where is my order?”  
+
+If you have any queries regarding the project or need to know how to setup this email me at ishikaa.sharma3110@gmail.com
