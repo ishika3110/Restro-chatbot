@@ -1,5 +1,7 @@
 # Restro-chatbot
 
+https://github.com/user-attachments/assets/c92b903a-983a-4346-9088-b0c9b38926c2
+
 Built an intelligent, end-to-end restaurant chatbot system that enables users to interact seamlessly for food ordering, table reservations, order tracking, and customer support via natural language.  
 🧠 NLP & Intent Handling: Integrated Dialogflow CX for intent detection (e.g., ordering, reservations, cancellations).  
 🌐 Backend API: Developed a robust FastAPI webhook backend to handle dynamic user requests and interact with a MySQL database.  
